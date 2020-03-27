@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('../fonts/NeoSansArabic.ttf'); /* IE9 Compat Modes */
+
+}
+
+html, body {
+    /* reset default inner and outer space to avoid oversizing */
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.fullscreen {
+    min-height: 100%;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* ******************************************************8*/
+
+
+/* ******************************************************8*/
+
+.textleft {
+    font-size: 1.1rem !important;
+    color: #D6DAE0;
+}
+
+.form_re {
+    width: 70% !important;
+}
+
+
+@media screen and (min-width: 1400px) {
+
+    .navbar-brand {
+        margin-left: -10% !important;
+        margin-top: 5%;
+    }
+
+    .navbar-nav {
+        margin-left: 40% !important;
+    }
+
+    .nav-item {
+        font-size: 1rem !important;
+    }
+
+    #phone {
+        width: 107% !important;
+        max-width: 107% !important;
+        min-width: 107% !important;
+        display: inline-block;
+    }
+
+    .btn-group {
+        height: 90px !important;
+        margin-top: -17% !important;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .navbar-brand {
+        margin-left: -28% !important;
+        margin-top: 4%;
+    }
+
+    .navbar-nav {
+        margin-left: 65% !important;
+    }
+
+    .nav-item {
+        font-size: 1.1rem !important;
+    }
+
+    .textleft {
+        font-size: 1.1rem !important;
+        color: #D6DAE0;
+        min-height: 220px !important;
+    }
+
+    .btn-group {
+        height: 90px !important;
+        margin-top: -10% !important;
+
+    }
+
+    #phone {
+        width: 136% !important;
+        max-width: 136% !important;
+        min-width: 136% !important;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+}
+
+.inputai {
+    width: 100% !important;
+}
+
+.container-fluid {
+    padding: 0;
+    direction: ltr;
+    min-height: 100%;
+}
+
+/*start head*/
+
+.navbar {
+
+    padding-top: 40px;
+}
+
+.navbar-dark .navbar-nav li {
+
+    margin-right: 30px;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 3px;
+
+}
+
+.navbar-dark .navbar-nav li .active {
+
+    color: #fefefe !important;
+
+}
+
+
+.navbar-dark .navbar-nav li .nav-link:hover {
+
+    color: #fad500;
+
+}
+
+.d-inline-block {
+    height: 90px;
+    width: 114px;
+}
+
+.form-group input {
+    font-size: 13px;
+}
+
+.navbar-dark .navbar-nav li .btn, .HomeSection .btn {
+    background-color: #fad500;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px solid #1f325a;
+    width: 150px;
+}
+
+.navbar-dark .navbar-nav li .btn:hover, .HomeSection .btn:hover {
+    color: #fad500;
+    background-color: white;
+    border: 1px solid #1f325a;
+}
+
+.headIm {
+    margin-top: 9px;
+    height: 35px;
+    width: 35px;
+}
+
+/*end header*/
+
+
+/*start footer*/
+.footer {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    margin-left: 9%;
+}
+
+.footer #riul {
+    padding: 0;
+}
+
+.footer #riul li {
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background: white;
+    border: 1px solid #1f325a;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline;
+    padding: 7px;
+}
+
+.footer #riul a:hover {
+    color: #fad500;
+}
+
+.footer .container .row {
+    padding-top: 15px;
+}
+
+.footer #riul span {
+    color: #fff;
+}
+
+.footer #riul .dropdown button {
+    cursor: pointer;
+}
+
+.footer #riul .dropdown ul li a {
+    color: #007bff;
+}
+
+.footer #riul a {
+    color: #1f325a;
+    text-decoration: none;
+    font-family: FontAwesome;
+
+}
+
+/*end footer*/
+
+/*mySlides5 */
+.mySlides5,
+.mySlides3 {
+    position: relative;
+}
+
+.mySlides .sec,
+.mySlides3 .sec {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: white;
+    opacity: 0.6;
+    height: 76px;
+    padding-top: 15px;
+}
+
+.mySlides p,
+.mySlides3 p {
+    font-size: 12px;
+    color: #f1ffff;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 21px;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.mySlides h1,
+.mySlides3 h1 {
+    font-weight: bolder;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 9px;
+    margin-top: -22px;
+    color: #95b0c1 !important;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: #1f325a;
+    border-radius: 50%;
+}
+
+/* Fading animation */
+.fade {
+    opacity: 1;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #a9c4cf;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active, .dot:hover {
+    background-color: #e8df38;
+}
+
+
+.hr1 {
+    border: 1px solid #FCD304;
+}
+
+
+/*mySlides1*/
+.mySlides11 {
+    margin-top: 20%;
+    background-image: url(../img/pic1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 1px solid #FCD304;
+}
+
+.mySlides12 {
+    margin-top: 20%;
+    border-radius: 20px;
+    background-image: url(../img/pic2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid #FCD304;
+
+}
+
+.mySlides1 p {
+    color: #1f325a;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.mySlides1 .btn {
+    margin-top: 50%;
+    width: 43%;
+    height: 18%;
+    border-radius: 63px;
+    box-shadow: -3px 3px 8px 2px #c2c3c5;
+    border: 0 !important;
+}
+
+.mySlides1 span {
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mySlides1.register .btn:hover {
+    background-color: #fad500bf !important;
+}
+
+#tofix {
+    max-width: 30%;
+    margin-right: 13%;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#tofox {
+    max-width: 37%;
+    margin-left: -4%;
+}
+
+#homeBody {
+    background-image: url(../img/homeBack.png);
+}
+
+.mr-2 {
+    margin-left: 15px;
+}
+
+.mySlides1 .btn a {
+    text-decoration: none;
+    color: #1f325a;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.HomeSection {
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+/*MediaQuery*/
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .footer {
+        margin-top: 150px;
+    }
+
+    .HomeSection {
+        padding-top: 330px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #tofix, #tofox {
+        max-width: 100%;
+        margin-right: 0%;
+        text-align: center;
+
+    }
+
+    #form1, #form2 {
+        margin-left: 0 !important;
+    }
+
+    .mySlides1 .btn {
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    #tofix, #tofox {
+        margin-right: 0;
+        margin-left: 3%;
+        max-width: 43%;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+    body, #homeBody {
+        background: #1f325a;
+    }
+
+    .navbar-dark .navbar-nav li {
+        margin-right: -36px;
+    }
+
+    .navbar-nav {
+        margin-bottom: 26px
+    }
+
+
+    .mySlides1 .btn {
+
+        width: 90%;
+    }
+
+    .col-md-6 {
+        margin-bottom: 45px;
+    }
+
+    .contact {
+        margin-left: 9% !important;
+        margin-right: 9% !important;
+    }
+
+    .SecIm, .ImageS img {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrap-select-arrow {
+        margin-left: 0%;
+    }
+
+    .signintitle {
+        margin-left: 22%;
+    }
+
+    .SignAs {
+        margin-left: 0% !important;
+    }
+
+    .RegAs {
+        background-color: darkgray;
+    }
+
+    #form1, #form2 {
+        margin-left: 0% !important;
+    }
+}
+
+/*start contact page*/
+.contact {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.contact label {
+    color: #1d3357;
+    font-size: 15px;
+}
+
+.contact input {
+    font-size: 13px;
+    margin-bottom: 13px;
+    border-radius: 0;
+    padding: 8px 6px;
+}
+
+.contact #submit {
+    color: #1d3357;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    border-radius: 0;
+    font-weight: bold;
+    box-shadow: 0px 0px 0px 0px #c2c3c5;
+}
+
+.contact #submit:hover {
+    border: 1px solid #1d3357 !important;
+    transition: 0.6s;
+}
+
+@media (max-width: 991px) {
+
+}
+
+.contact iframe {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    top: 0px;
+    left: 0px;
+    border: none;
+}
+
+.contact .mySlides1 p {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.contact #location {
+    margin-bottom: 21px;
+}
+
+/*login page*/
+.haveAccount {
+    text-align: left !important;
+    margin-top: 30px;
+    color: darkgray !important;
+
+}
+
+.haveAccount .reg {
+    color: #fad500 !important;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.as h6 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.member {
+    padding-top: 10px;
+}
+
+.member .reg {
+    color: darkgray !important;
+    border-bottom: 1px solid;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 27%;
+}
+
+.contact .input-group {
+    margin-bottom: 12px;
+}
+
+.contact select {
+    color: lightslategray;
+    font-size: 14px;
+}
+
+.RegAs, .SignAs {
+    background-color: #fad500;
+    color: #1d3357;
+    -webkit-appearance: menulist-button;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align-last: center;
+    font-weight: bold;
+    margin-left: 17%;
+}
+
+.SignAsOption {
+    background-color: white;
+    color: #1d3357;
+}
+
+.RegAs {
+    background-color: darkgray;
+}
+
+#form1, #form2 {
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+#form2 {
+    margin-top: 30px;
+}
+
+/**/
+.SecIm, .ImageS img {
+    height: 432px;
+    width: 368px;
+}
